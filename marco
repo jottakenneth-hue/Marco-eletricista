@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARCO Eletricista</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <img src="https://i.pinimg.com/736x/81/d0/fe/81d0fefaf0b2d321447ade32b82268f5.jpg" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section class="banner">
+        <h1>MARCO Eletricista e Antenista</h1>
+        <p>Soluções elétricas residenciais e prediais com segurança e qualidade.</p>
+        <a class="btn-whatsapp" href="https://wa.me/5513991140748" target="_blank">Chamar no WhatsApp</a>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Atuamos na Baixada Santista oferecendo serviços elétricos de confiança, incluindo instalações, manutenções e reparos. 
+        Nosso compromisso é a segurança e satisfação dos clientes.</p>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Instalações Elétricas Residenciais</li>
+            <li>Manutenção Predial</li>
+            <li>Instalação de Ar Condicionado</li>
+            <li>Iluminação e Automação</li>
+            <li>Serviços de Antena</li>
+        </ul>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <p>📞 WhatsApp: <a href="https://wa.me/5513991140748" target="_blank">+55 (13) 99114-0748</a></p>
+        <p>🌎 Região de atendimento: Baixada Santista</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2025 SL Eletricista - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #08070a;
+    color: #ffffff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000000;
+}
+header .logo img {
+    width: 120px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.banner {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #08070a, #84838c);
+}
+.banner h1 {
+    font-size: 2.5em;
+    color: #f3bd59;
+}
+.banner p {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+.btn-whatsapp {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #25d366;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.sobre, .servicos, .contato {
+    padding: 50px 20px;
+    text-align: center;
+}
+.servicos ul {
+    list-style: none;
+    padding: 0;
+}
+.servicos ul li {
+    margin: 10px 0;
+    background: #000000;
+    padding: 10px;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #000000;
+    color: #84838c;
+    font-size: 0.9em;
+}
+// JS vazio por enquanto
+console.log("Site carregado com sucesso!");
